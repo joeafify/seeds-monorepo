@@ -1,4 +1,4 @@
-import { SeedPacketCollectionModel, SeedPacketModel } from '@seed/models'
+import type { SeedPacketCollectionModel, SeedPacketModel } from '@seed/models'
 import { writable, derived } from 'svelte/store'
 
 interface SeedPacketsState {

@@ -1,6 +1,6 @@
 import * as yaml from 'yaml'
 import * as fs from 'fs'
-import path from 'path'
+import * as path from 'path'
 import { SeedPacketCollectionModel } from '@seed/models'
 
 const DATA_FILE_PATH = path.join(process.cwd(), 'data', 'seeds.yml')

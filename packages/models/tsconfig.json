@@ -6,6 +6,6 @@
   "include": [
     "src",
     "tests",
-    "eslint.config.mts",
+    "eslint.config.mts"
   ]
 }

@@ -1,4 +1,4 @@
-import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from "@seed/models"
+import type { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from "@seed/models"
 
 
 /**
@@ -7,9 +7,9 @@ import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from "@seed/model
  * @returns Formatted zone string like "5", "5-8", or "Not specified"
  */
 export function formatUSDAZone(zoneData: USDAHardinessZoneRangeMap): string {
-	const zoneToDisplay = zoneData.multiSeason || zoneData.oneSeason
+	const zoneToDisplay = zoneData.multiSeason ?? zoneData.oneSeason
 
-	if (!zoneToDisplay) return 'Not specified'
+	if (zoneToDisplay === undefined) return 'Not specified'
 
 	if (
 		typeof zoneToDisplay === 'object' &&
