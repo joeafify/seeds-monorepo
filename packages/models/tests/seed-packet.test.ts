@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { Distance, USDAHardinessZoneRangeMap } from '../src'
+import { Distance, USDAHardinessZoneRangeMap } from '../src/seed-packet.model.js'
 
 
 describe('SeedPacketModel Types', () => {

@@ -1,8 +1,5 @@
-import type {
-	USDAHardinessZoneRangeMap,
-	SeedPacketInfo,
-	Distance,
-} from '../models/seed-packet.model.js'
+import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from "@seed/models"
+
 
 /**
  * Formats USDA hardiness zone data into a human-readable string

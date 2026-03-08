@@ -1,18 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "noEmit": true,
-    "noImplicitAny": true,
-    "allowJs": true,
-    "strict": true,
-    "allowSyntheticDefaultImports": true,
-    "noUncheckedSideEffectImports": true
-  },
+  "extends": "../../tsconfig.json",
   "include": [
-    "src/**/*.ts",
     "src/**/*.js",
+    "src/**/*.ts",
     "src/**/*.svelte",
     "tests/**/*.ts",
     "tests/**/*.js",
@@ -22,6 +12,5 @@
     "vite.config.ts",
     "svelte.config.js",
     "eslint.config.mts"
-  ],
-  "exclude": ["**/assets/**/*", "node_modules", "dist"]
+  ]
 }
