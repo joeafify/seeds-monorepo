@@ -9,7 +9,6 @@ import {
 } from '../../src/utils/formatting.js'
 import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from '@seed/models'
 
-
 describe('formatUSDAZone', () => {
 	it('should format single zone from multiSeason', () => {
 		const zoneData: USDAHardinessZoneRangeMap = {
