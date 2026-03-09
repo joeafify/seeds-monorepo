@@ -1,27 +1,12 @@
 {
 	"$schema": "./node_modules/nx/schemas/nx-schema.json",
 	"targetDefaults": {
-		"test": {
-			"dependsOn": ["^test"],
-			"cache": true
-		},
-		"build": {
-			"outputs": ["{projectRoot}/dist"],
-			"cache": true
-		},
-		"test:coverage": {
-			"outputs": ["{projectRoot}/coverage"],
-			"cache": true
-		},
-		"lint": {
-			"cache": true
-		},
-		"format": {
-			"cache": true
-		},
-		"check": {
-			"cache": true
-		}
+		"test": { "dependsOn": ["^test"], "cache": true },
+		"build": { "outputs": ["{projectRoot}/dist"], "cache": true },
+		"test:coverage": { "outputs": ["{projectRoot}/coverage"], "cache": true },
+		"lint": { "cache": true },
+		"format": { "cache": true },
+		"check": { "cache": true }
 	},
 	"plugins": [
 		{
@@ -39,5 +24,5 @@
 			}
 		}
 	],
-	"nxCloudId": "69af024fba7e5fc6949fea71"
+	"nxCloudId": "69af03e029e488817df407d8"
 }
