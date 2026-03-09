@@ -18,12 +18,7 @@
     "packages/**/tests/**/*.ts",
     "packages/**/tests/**/*.js",
     "packages/**/tests/**/*.svelte",
-    "packages/ui/eslint.config.mts",
-    "packages/server/src/app.ts",
-    "packages/server/config.ts",
-    "packages/server/index.ts",
-    "packages/server/load-data.ts",
-    "packages/server/routes.ts"
+    "eslint.config.mts",
   ],
   "exclude": [
     "**/assets/**/*",

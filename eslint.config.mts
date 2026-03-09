@@ -15,7 +15,7 @@ export default tseslint.config(
 		},
 	},
 	{
-		files: ['src/**/*.ts', 'tests/**/*.ts'],
+		files: ['packages/**/src/**/*.ts', 'packages/**/tests/**/*.ts'],
 		rules: {
 			'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 			'@typescript-eslint/restrict-template-expressions': [
@@ -25,7 +25,7 @@ export default tseslint.config(
 		},
 	},
 	{
-		ignores: ['**/assets/**/*', 'dist/**'],
+		ignores: ['**/assets/**/*', '**/dist/**'],
 	},
 	{
 		files: ['**/tailwind.config.js'],
