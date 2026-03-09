@@ -5,9 +5,15 @@
     "outDir": "dist",
     "rootDir": "src",
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "composite": true
   },
   "include": [
     "src"
   ],
+  "references": [
+    {
+      "path": "../models/tsconfig.build.json"
+    }
+  ]
 }
