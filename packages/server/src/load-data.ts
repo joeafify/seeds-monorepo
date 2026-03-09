@@ -1,4 +1,4 @@
-import { SeedPacketCollectionModel } from '@seed/models'
+import { SeedPacketCollectionModel } from '@seeds/models'
 import * as fs from 'fs'
 import * as path from 'path'
 import * as yaml from 'yaml'

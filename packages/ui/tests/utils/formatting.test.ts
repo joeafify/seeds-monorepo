@@ -7,7 +7,7 @@ import {
 	wrapText,
 	capitalizeWords,
 } from '../../src/utils/formatting.js'
-import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from '@seed/models'
+import { Distance, SeedPacketInfo, USDAHardinessZoneRangeMap } from '@seeds/models'
 
 describe('formatUSDAZone', () => {
 	it('should format single zone from multiSeason', () => {

@@ -4,7 +4,7 @@ import { cubicOut } from 'svelte/easing'
 import SeedPacketBack from './SeedPacketBack.svelte'
 import { rgbToCss } from '../utils/color.js'
 import { wrapText } from '../utils/formatting.js'
-import { type SeedPacketModel } from '@seed/models'
+import { type SeedPacketModel } from '@seeds/models'
 interface Props {
 	seedPacket: SeedPacketModel
 }

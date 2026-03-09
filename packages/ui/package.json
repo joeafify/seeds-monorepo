@@ -1,5 +1,5 @@
 {
-	"name": "@seed/ui",
+	"name": "@seeds/ui",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -37,6 +37,6 @@
 		"vitest": "^3.2.3"
 	},
 	"dependencies": {
-		"@seed/models": "workspace:*"
+		"@seeds/models": "workspace:*"
 	}
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-import type { SeedPacketModel } from '@seed/models'
+import type { SeedPacketModel } from '@seeds/models'
 import {
 	formatDistance,
 	formatEdibleParts,

@@ -19,7 +19,7 @@ Description
 </th></tr></thead>
 <tbody><tr><td>
 
-[@seed/models](./models.md)
+[@seeds/models](./models.md)
 
 
 </td><td>

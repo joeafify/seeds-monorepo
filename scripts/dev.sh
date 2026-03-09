@@ -2,6 +2,6 @@
 
 pnpm dlx concurrently -n "Server,Models,Client" \
                       -c "yellow,green,blue" \
-                      "pnpm --filter=@seed/server run dev" \
-                      "pnpm --filter=@seed/models run dev" \
-                      "pnpm --filter=@seed/ui run dev"
+                      "pnpm --filter=@seeds/server run dev" \
+                      "pnpm --filter=@seeds/models run dev" \
+                      "pnpm --filter=@seeds/ui run dev"

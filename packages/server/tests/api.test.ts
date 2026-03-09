@@ -1,4 +1,4 @@
-import { SeedPacketModel } from '@seed/models'
+import { SeedPacketModel } from '@seeds/models'
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 
 // Mock global fetch for server tests
