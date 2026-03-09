@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "pnpm --color run -r dev",
+		"dev": "./scripts/dev.sh",
 		"build": "pnpm --color run -r build",
 		"test": "pnpm --color run -r test",
 		"lint": "pnpm --color run -r lint",
@@ -17,6 +17,7 @@
 		"@eslint/js": "^9.28.0",
 		"@manypkg/cli": "^0.25.1",
 		"@types/node": "^24.0.0",
+		"concurrently": "^9.1.2",
 		"eslint": "^9.28.0",
 		"knip": "^5.86.0",
 		"prettier": "^3.5.3",
